@@ -1,2 +1,8 @@
-# green-api-test-task
-Completion of the Test Task from Green API
+# Green API Test Page
+
+HTML-страница для вызова методов GREEN-API:
+
+- getSettings
+- getStateInstance
+- sendMessage
+- sendFileByUrl
