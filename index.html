@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Green API Tester</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Green API Tool</h1>
+
+  <div class="input-group">
+    <label>ID Instance:</label>
+    <input type="text" id="idInstance">
+  </div>
+
+  <div class="input-group">
+    <label>API Token:</label>
+    <input type="text" id="apiTokenInstance">
+  </div>
+
+  <div class="input-group">
+    <label>Receiver Phone Number (with 7/8/WhatsApp format):</label>
+    <input type="text" id="phone">
+  </div>
+
+  <div class="input-group">
+    <label>Message Text:</label>
+    <input type="text" id="message">
+  </div>
+
+  <div class="input-group">
+    <label>File URL:</label>
+    <input type="text" id="fileUrl">
+  </div>
+
+  <div class="buttons">
+    <button onclick="getSettings()">getSettings</button>
+    <button onclick="getStateInstance()">getStateInstance</button>
+    <button onclick="sendMessage()">sendMessage</button>
+    <button onclick="sendFileByUrl()">sendFileByUrl</button>
+  </div>
+
+  <div class="output">
+    <h3>Ответ API:</h3>
+    <textarea id="response" readonly></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
